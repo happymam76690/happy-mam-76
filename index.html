@@ -18,7 +18,7 @@
 
 <meta content="assets/logo.jpg" property="og:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<script id="local-business-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"ChildCare","name":"Happy MAM 76","description":"Découvrez Happy MAM 76, maison d’assistantes maternelles au Bocasse (76690), en Seine-Maritime : accueil des enfants, pédagogie Montessori, motricité libre et activités.","image":"assets/logo.jpg","telephone":"02 79 91 48 27","address":{"@type":"PostalAddress","streetAddress":"189 Rte de Dieppe","postalCode":"76690","addressLocality":"Le Bocasse","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/share/1EyQ9QBmGp/","https://www.instagram.com/happy_mam76"]}</script>
+<script id="local-business-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"ChildCare","name":"test","description":"Découvrez Happy MAM 76, maison d’assistantes maternelles au Bocasse (76690), en Seine-Maritime : accueil des enfants, pédagogie Montessori, motricité libre et activités.","image":"assets/logo.jpg","telephone":"02 79 91 48 27","address":{"@type":"PostalAddress","streetAddress":"189 Rte de Dieppe","postalCode":"76690","addressLocality":"Le Bocasse","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/share/1EyQ9QBmGp/","https://www.instagram.com/happy_mam76"]}</script>
 <title>Happy MAM 76 | Maison d’assistantes maternelles au Bocasse (76690)</title>
 <style>
 :root{
@@ -49,7 +49,7 @@ footer{border-top:1px solid var(--line);padding:30px 0 38px;color:var(--muted);f
 <body>
 <header>
 <div class="container nav">
-<a class="brand" href="#accueil">Happy MAM 76</a>
+<a class="brand" href="#accueil">test</a>
 <nav class="navlinks" id="navlinks">
 <a href="#mam">La MAM</a><a href="#pedagogie">Notre approche</a><a href="#activites">Activités</a><a href="#equipe">L'équipe</a><a href="#ecologie">Écologie</a><a class="navcta" href="#contact">Contact</a>
 </nav>
@@ -67,7 +67,7 @@ footer{border-top:1px solid var(--line);padding:30px 0 38px;color:var(--muted);f
 <div class="hero-actions"><a class="btn btn-primary" href="#mam">Découvrir la MAM</a><a class="btn btn-light" href="#contact">Nous contacter</a></div>
 </div>
 <div class="hero-card">
-<img alt="Pièce de vie de Happy MAM 76" class="main" src="assets/uploads/mam-0008.jpg"/>
+<img alt="Pièce de vie de Happy MAM 76" class="main" src="assets/mam-0008.jpg"/>
 <img alt="Logo Happy MAM 76" class="logo-float" src="assets/logo.jpg"/>
 <div class="bubble">Un lieu doux pour grandir 🌈</div>
 </div>
@@ -157,9 +157,9 @@ footer{border-top:1px solid var(--line);padding:30px 0 38px;color:var(--muted);f
 <section class="section paper" id="contact">
 <div class="container contact-grid">
 <div class="contact-card"><h2>Nous contacter</h2><p>Une question sur la MAM, son fonctionnement ou un futur accueil ? Écrivez-nous.</p><div class="contact-lines"><div class="contact-line"><span class="badge">☎</span><span data-contact="phone">02 79 91 48 27</span></div><div class="contact-line"><span class="badge">🕐</span><span data-contact="hours">Du lundi au vendredi · 7h à 17h30</span></div><div class="contact-line"><span class="badge">📍</span><a class="contact-address" data-contact="address" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e0eb00c2274a5b:0xe9a06010f5284e5b?sa=X&amp;ved=1t:8290&amp;ictx=111" rel="noopener" target="_blank">189 Rte de Dieppe, 76690 Le Bocasse</a></div></div><div class="socials"><a class="social-facebook" href="https://www.facebook.com/share/1EyQ9QBmGp/" rel="noopener" target="_blank"><img alt="" src="assets/icons/facebook.svg"/><span class="social-label">Facebook</span></a><a class="social-instagram" href="https://www.instagram.com/happy_mam76" rel="noopener" target="_blank"><img alt="" src="assets/icons/instagram.svg"/><span class="social-label">@happy_mam76</span></a></div><img alt="" class="contact-mascot" src="assets/happy-mascotte.jpg"/></div>
-<form class="form" onsubmit="event.preventDefault(); document.getElementById('demo-msg').textContent='Le formulaire n’est pas encore relié à Formspree.';">
+<form action="https://formspree.io/f/xvkgoobw" class="form" method="POST">
 <div class="form-grid"><div class="field"><label for="nom">Nom</label><input id="nom" name="nom" required=""/></div><div class="field"><label for="email">E-mail</label><input id="email" name="email" required="" type="email"/></div><div class="field"><label for="tel">Téléphone</label><input id="tel" name="telephone" type="tel"/></div><div class="field"><label for="objet">Objet</label><input id="objet" name="objet"/></div><div class="field full"><label for="message">Votre message</label><textarea id="message" name="message" required=""></textarea></div></div>
-<button class="btn btn-primary" style="margin-top:18px" type="submit">Envoyer le message</button><p class="note" id="demo-msg">Maquette uniquement : aucun message n’est envoyé pour le moment.</p>
+<button class="btn btn-primary" style="margin-top:18px" type="submit">Envoyer le message</button><p class="note" id="demo-msg">Votre message sera envoyé à la MAM.</p>
 </form>
 </div>
 </section>
